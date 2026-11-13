@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Data Application</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 Book Data Application</h1>
+        <p>Search and Explore Books</p>
+    </header>
+
+    <div class="container">
+
+        <h2>Find Your Favourite Books</h2>
+
+        <input type="text" id="searchBook"
+               placeholder="Enter book name"
+               value="programming">
+
+        <button id="loadBooks">Load Books</button>
+
+        <p id="message">Click Load Books to view book details.</p>
+
+        <div id="bookList"></div>
+
+    </div>
+
+    <footer>
+        <p>Book Data Application using jQuery and AJAX</p>
+    </footer>
+
+    <!-- jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="book.js"></script>
+
+</body>
+</html>
